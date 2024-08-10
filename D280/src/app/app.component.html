@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+
+<app-header></app-header>
+<main>
+    <app-world (selectedCountry)="selectCountry($event)"></app-world>
+    <app-country-info [dataPoints]="dataPoints"></app-country-info>
+</main>
