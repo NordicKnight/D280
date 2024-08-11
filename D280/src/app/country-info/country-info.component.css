@@ -1,7 +1,7 @@
 h1 {
-    border: 2px solid gray;
-    border-radius: 10px;
-    background-color: rgb(241, 241, 213);
+    border: 1px solid gray;
+    border-radius: 2px;
+    background-color: rgb(240, 240, 123);
     padding: 15px;
   
     & ul {
@@ -14,4 +14,3 @@ h1 {
       }
     }
   }
-
