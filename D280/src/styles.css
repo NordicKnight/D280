@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+main {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 100vh;
+  }
+  
+  
+  .world-map{
+    grid-column: 1; 
+    grid-row: 1; 
+  }
+  
+  /* I dont feel good about this part, come back too */
+  .country-info {
+    grid-column: 2; 
+    grid-row: 1; 
+    overflow-y: auto; 
+  }
