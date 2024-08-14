@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'D280';
+
+  onsave(){
+    console.log('Button Clicked');
+  }
 }
